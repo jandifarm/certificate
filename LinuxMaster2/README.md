@@ -14,16 +14,11 @@
 
 :woman_student: **참여자** : 박미지 이은별
 
-|                            박미지                            |                            이은별                            |
-| :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://github.com/daily-101/daily-101-docs/blob/main/img/imoji_byeol.png" style="zoom:33%;" /> | <img src="https://github.com/daily-101/daily-101-docs/blob/main/img/imoji_byeol.png" style="zoom:33%;" /> |
-|   [:computer:미지 깃:heart:](https://github.com/keunwooo)    | [[:star:lebcoco:heart:](https://github.com/lebcoco)](https://github.com/mijip0320) |
-
 
 
 #### 운영방식
 
-추가예정
+:date: **운영기간** : 2021. 02. 24. 수 ~ 2021. 03. 12. 금 
 
 
 
