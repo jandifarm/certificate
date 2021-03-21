@@ -7,18 +7,56 @@
 
 
 
+
 ### 정보처리기사 실기 잔디팜 개요
 
-:date: **시험일** : 2021. 04. 
+---
+
+:calendar: **시험일** : 2021. 04. 24. 토
 
 :memo: **시험명** : 정보처리기사 실기
 
-:woman_student: **참여자** : 박미지 이은별 
+:woman_student: **참여자** : 박미지 심재욱 이은별 하태린 
+
+:books: **운영방식** : 각자 공부 계획을 세우고, 실천 내용을 인증하는 방식으로 운영한다.
 
 
 
 
-### 운영방식
 
-:date: **운영기간** : 2021. 03. 18. 목 ~ 2021. 04.
+### 운영 상세
 
+---
+
+:date: **운영기간** : 2021. 03. 21. 일 ~ 2021. 04. 23. 금
+
+* 총 5주 (34일)
+  * 4주(각자 공부) + 1주(총정리)
+
+:ballot_box_with_check: **인증방식** 
+
+* 내용
+  * 내용
+
+:green_salad: **개별 잔디 바로가기** 
+
+|      |       박미지       |        심재욱        |      이은별      |      하태린       |
+| :--: | :----------------: | :------------------: | :--------------: | :---------------: |
+| 계획 | [mijip0320Plan]()  | [ShimJaewookPlan]()  |   [lebcoco]()    |   [hataerin]()    |
+| 인증 | [mijip0320Check]() | [ShimJaewookCheck]() | [lebcocoCheck]() | [hataerinCheck]() |
+
+
+
+### 출제정보
+
+---
+
+:heavy_check_mark:**문제유형**
+
+<img src="D:\TIL21\certificate\EngineerInformationProcessing202104\img\문제유형.PNG" style="zoom:50%;" />
+
+
+
+:heavy_check_mark:**출제현황**
+
+<img src="D:\TIL21\certificate\EngineerInformationProcessing202104\img\출제현황.PNG" style="zoom:50%;" />
