@@ -8,6 +8,8 @@
 
 
 
+
+
 ### 정보처리기사 실기 잔디팜 개요
 
 ---
@@ -19,6 +21,8 @@
 :woman_student: **참여자** : 박미지 심재욱 이은별 하태린 
 
 :books: **운영방식** : 각자 공부 계획을 세우고, 실천 내용을 인증하는 방식으로 운영한다.
+
+
 
 
 
@@ -42,8 +46,12 @@
 
 |      |       박미지       |        심재욱        |      이은별      |      하태린       |
 | :--: | :----------------: | :------------------: | :--------------: | :---------------: |
-| 계획 | [mijip0320Plan]()  | [ShimJaewookPlan]()  |   [lebcoco]()    |   [hataerin]()    |
+| 계획 | [mijip0320Plan]()  | [ShimJaewookPlan]()  |   [lebcocoPlan]()    |   [hataerinPlan]()    |
 | 인증 | [mijip0320Check]() | [ShimJaewookCheck]() | [lebcocoCheck]() | [hataerinCheck]() |
+
+
+
+
 
 
 
@@ -53,10 +61,10 @@
 
 :heavy_check_mark:**문제유형**
 
-<img src="D:\TIL21\certificate\EngineerInformationProcessing202104\img\문제유형.PNG" style="zoom:50%;" />
+<img src="https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/img/%EB%AC%B8%EC%A0%9C%EC%9C%A0%ED%98%95.PNG" style="zoom:50%;" />
 
 
 
 :heavy_check_mark:**출제현황**
 
-<img src="D:\TIL21\certificate\EngineerInformationProcessing202104\img\출제현황.PNG" style="zoom:50%;" />
+<img src="https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/img/%EC%B6%9C%EC%A0%9C%ED%98%84%ED%99%A9.PNG" style="zoom:50%;" />
