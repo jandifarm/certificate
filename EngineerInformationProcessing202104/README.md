@@ -37,15 +37,15 @@
 
 :ballot_box_with_check: **인증방식** 
 
-* 내용
-  * 내용
+* 매주 수요일, 일요일
+  * 공부 진행 인증하기(형식 자유 ex:사진인증)
 
 :green_salad: **개별 잔디 바로가기** 
 
 |      |       박미지       |        심재욱        |      이은별      |      하태린       |
 | :--: | :----------------: | :------------------: | :--------------: | :---------------: |
-| 계획 | [mijip0320Plan]()  | [ShimJaewookPlan]()  |   [lebcocoPlan]()    |   [hataerinPlan]()    |
-| 인증 | [mijip0320Check]() | [ShimJaewookCheck]() | [lebcocoCheck]() | [hataerinCheck]() |
+| 계획 | [mijip0320Plan](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/mijip0320/plan)  | [ShimJaewookPlan](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/ShimJaewook/check)  |   [lebcocoPlan](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/lebcoco/plan)    |   [hataerinPlan](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/hataerin/plan)    |
+| 인증 | [mijip0320Check](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/mijip0320/check) | [ShimJaewookCheck](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/ShimJaewook/plan) | [lebcocoCheck](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/lebcoco/check) | [hataerinCheck](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/hataerin/check) |
 
 
 
