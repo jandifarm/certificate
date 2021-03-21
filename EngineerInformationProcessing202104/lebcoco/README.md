@@ -1,9 +1,8 @@
-## EngineerInformationProcessing Jandi-Farm
+### lebcoco's certificate Jandi
 
-> 잔디농장 부설 자격증 잔디를 가꾸자 :green_apple::green_heart::evergreen_tree::school:
->
-> 정보처리기사 실기 시험을 함께 준비합니다.
+#### :bookmark_tabs: EngineerInformationProcessing
 
+[계획 바로가기]()
 
+[인증 바로가기]()
 
-은별스

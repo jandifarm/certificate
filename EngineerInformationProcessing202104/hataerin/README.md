@@ -1,14 +1,8 @@
-### mijip0320's certificate Jandi
+### hataerin's certificate Jandi
 
 #### :bookmark_tabs: EngineerInformationProcessing
 
 [계획 바로가기]()
 
 [인증 바로가기]()
-
-
-
-시험 접수: 3/31일<br>
-
-책: ncs 100, 시나공 필기책
 
