@@ -14,7 +14,7 @@
 **운영방식**
 
 * 인증: 주요 내용 정리 올리기 
-*   [👀인증 디렉토리](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/lebcoco/check)
+  * [👀인증 디렉토리](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/lebcoco/check)
 
 * 사용교재: 기사패스 NCS 정보처리 기사 실기 문제집 1000
 
