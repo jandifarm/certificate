@@ -13,7 +13,7 @@
 
 **운영방식**
 
-* 인증: 주요 내용 정리 올리기
+* 인증: 주요 내용 정리 올리기 [👀인증](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/lebcoco/check)
 
 * 사용교재: 기사패스 NCS 정보처리 기사 실기 문제집 1000
 
@@ -58,7 +58,7 @@
 |                 월                  |                 화                  |                수                |                목                |                 금                 |                 토                 |                일                |
 | :---------------------------------: | :---------------------------------: | :------------------------------: | :------------------------------: | :--------------------------------: | :--------------------------------: | :------------------------------: |
 |                03/22                |                03/23                |              03/24               |              03/24               |               03/24                |               03/24                |              03/24               |
-| 09<br />[:ballot_box_with_check:]() | 09<br />​[:ballot_box_with_check:]() | 09, 10<br />:white_large_square: |   10<br />:white_large_square:   |    10<br />:white_large_square:    |  10. 04<br />:white_large_square:  |  복습<br />:white_large_square:  |
+| 09<br />[:ballot_box_with_check:](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/lebcoco/check/1%EC%A3%BC%EC%B0%A8%20%EC%9D%B8%EC%A6%9D) | 09<br />​[:ballot_box_with_check:](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/lebcoco/check/1%EC%A3%BC%EC%B0%A8%20%EC%9D%B8%EC%A6%9D) | 09, 10<br />:white_large_square: |   10<br />:white_large_square:   |    10<br />:white_large_square:    |  10. 04<br />:white_large_square:  |  복습<br />:white_large_square:  |
 |                03/29                |                03/30                |              03/31               |              04/01               |               04/02                |               04/03                |              04/04               |
 |  04, 02<br />:white_large_square:   |    02<br />:white_large_square:     |   02<br />:white_large_square:   | 02, 07<br />:white_large_square: |    07<br />:white_large_square:    |    07<br />:white_large_square:    |  복습<br />:white_large_square:  |
 |                04/05                |                04/06                |              04/07               |              04/08               |               04/09                |               04/10                |              04/11               |
