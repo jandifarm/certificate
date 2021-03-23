@@ -1,4 +1,4 @@
-### lebcoco's certificate Jandi
+lebcoco's certificate Jandi
 
 #### :bookmark_tabs: EngineerInformationProcessing
 
@@ -55,15 +55,15 @@
 
 |                 월                  |                 화                  |                수                |                목                |                 금                 |                 토                 |                일                |
 | :---------------------------------: | :---------------------------------: | :------------------------------: | :------------------------------: | :--------------------------------: | :--------------------------------: | :------------------------------: |
-|              03/22 월               |              03/23 화               |             03/24 수             |             03/24 목             |              03/24 금              |              03/24 토              |            03/24 일09            |
+|                03/22                |                03/23                |              03/24               |              03/24               |               03/24                |               03/24                |              03/24               |
 | 09<br />[:ballot_box_with_check:]() | 09<br />​[:ballot_box_with_check:]() | 09, 10<br />:white_large_square: |   10<br />:white_large_square:   |    10<br />:white_large_square:    |  10. 04<br />:white_large_square:  |  복습<br />:white_large_square:  |
-|              03/29 월               |              03/30 화               |             03/31 수             |             04/01 목             |              04/02 금              |              04/03 토              |             04/04 일             |
+|                03/29                |                03/30                |              03/31               |              04/01               |               04/02                |               04/03                |              04/04               |
 |  04, 02<br />:white_large_square:   |    02<br />:white_large_square:     |   02<br />:white_large_square:   | 02, 07<br />:white_large_square: |    07<br />:white_large_square:    |    07<br />:white_large_square:    |  복습<br />:white_large_square:  |
-|              04/05 월               |              04/06 월               |             04/07 월             |             04/08 목             |              04/09 금              |              04/10 토              |             04/11 일             |
+|                04/05                |                04/06                |              04/07               |              04/08               |               04/09                |               04/10                |              04/11               |
 |    08<br />:white_large_square:     |    08<br />:white_large_square:     |   01<br />:white_large_square:   |   01<br />:white_large_square:   |    05<br />:white_large_square:    |    05<br />:white_large_square:    |  복습<br />:white_large_square:  |
-|              04/12 월               |              04/13 월               |             04/14 월             |             04/15 목             |              04/16 금              |              04/17 토              |             04/18 일             |
+|                04/12                |                04/13                |              04/14               |              04/15               |               04/16                |               04/17                |              04/18               |
 |    06<br />:white_large_square:     |    06<br />:white_large_square:     |   03<br />:white_large_square:   |   03<br />:white_large_square:   | 오답정리<br />:white_large_square: | 오답정리<br />:white_large_square: | 총정리<br />:white_large_square: |
-|              04/19 월               |              04/20 월               |             04/21 월             |             04/22 목             |              04/23 금              |              04/24 토              |             04/25 일             |
+|                04/19                |                04/20                |              04/21               |              04/22               |               04/23                |               04/24                |              04/25               |
 |                                     |                                     |                                  |                                  |                                    |                                    |                                  |
 
 
