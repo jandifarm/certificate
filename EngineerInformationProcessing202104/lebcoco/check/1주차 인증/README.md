@@ -6,7 +6,7 @@
 
 1주차 인증 
 
-[1주차 정리:point_right:google Docs](https://docs.google.com/document/d/1c1HG9M7bDNQypKnErJtVl4ptE_qOAljKjznOfB0nyOY/edit?usp=sharing)
+[1주차 정리:point_right:google Docs](https://docs.google.com/document/d/1dP9pkxsEYi-9YAKthbDNlj8FXQFtV_ie1CUb8Ay2jrE/edit)
 
 
 
