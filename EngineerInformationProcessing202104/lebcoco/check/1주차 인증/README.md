@@ -4,7 +4,9 @@
 
 
 
-1주차 인증
+1주차 인증 
+
+[1주차 정리:point_right:google Docs](https://docs.google.com/document/d/1c1HG9M7bDNQypKnErJtVl4ptE_qOAljKjznOfB0nyOY/edit?usp=sharing)
 
 
 
