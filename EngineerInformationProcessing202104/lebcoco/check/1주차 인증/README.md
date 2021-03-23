@@ -10,9 +10,9 @@
 
 
 
-[정보처리기사실기 잔디팜 개요 바로가기]()
+[정보처리기사실기 잔디팜 개요 바로가기](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104)
 
-[계획 바로가기]()
+[계획 바로가기](https://github.com/jandifarm/certificate/tree/master/EngineerInformationProcessing202104/lebcoco/plan)
 
 
 
