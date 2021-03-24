@@ -1,20 +1,20 @@
-## 정보처리기사 실기 자격증 잔디농장 👨‍🌾🌿
+# 정보처리기사 실기 자격증 잔디농장 👨‍🌾🌿
 
-##### 잔디농장 부설 자격증 잔디를 가꾸자! 
+#### 잔디농장 부설 자격증 잔디를 가꾸자! 
 
 
 
 :woman_student: **참여자** : 박미지 심재욱 이은별 하태린 
 
-:date: **운영기간 **: 2021. 03. 21. 일 ~ 2021. 04. 23. 금 (총 5주 / 34일)
+:date: **운영기간** : 2021. 03. 21. 일 ~ 2021. 04. 23. 금 (총 5주 / 34일)
 
-:school: **시험일** 2021. 04. 24. 토
+:school: **시험일** : 2021. 04. 24. 토
 
 ---
 
 
 
-#### 잔디농장 운영 상세
+### 잔디농장 운영 상세
 
 * **미팅일정** : 매주 수요일(22:30), 일요일(09:30)
 
@@ -30,7 +30,7 @@
 
 
 
-#### 스터디 상세 일정
+### 스터디 상세 일정
 
 * 주요 출제 항목 순서로 스터디를 진행합니다.
 * 주차별 진도에 맞춰 각자 스터디를 하고, 완료시 인증문서 링크와 함께 체크박스로 업데이트  합니다.
@@ -63,11 +63,11 @@
 
 :heavy_check_mark:**문제유형**
 
-<img src="https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/Docs/img/%EB%AC%B8%EC%A0%9C%EC%9C%A0%ED%98%95.PNG" style="zoom:50%;" />
+<img src="https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/img/%EB%AC%B8%EC%A0%9C%EC%9C%A0%ED%98%95.PNG" style="zoom:50%;" />
 
 
 
 :heavy_check_mark:**출제현황**
 
-<img src="https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/Docs/img/%EC%B6%9C%EC%A0%9C%ED%98%84%ED%99%A9.PNG" style="zoom:50%;" />
+<img src="https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/img/%EC%B6%9C%EC%A0%9C%ED%98%84%ED%99%A9.PNG" style="zoom:50%;" />
 
