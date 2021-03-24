@@ -59,15 +59,15 @@
 
 
 
-#### 출제정보
+### 출제정보
 
 :heavy_check_mark:**문제유형**
 
-<img src="https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/img/%EB%AC%B8%EC%A0%9C%EC%9C%A0%ED%98%95.PNG" style="zoom:50%;" />
+<img src="https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/img/%EB%AC%B8%EC%A0%9C%EC%9C%A0%ED%98%95.PNG" style="zoom:40%;" />
 
 
 
 :heavy_check_mark:**출제현황**
 
-<img src="https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/img/%EC%B6%9C%EC%A0%9C%ED%98%84%ED%99%A9.PNG" style="zoom:50%;" />
+<img src="https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/img/%EC%B6%9C%EC%A0%9C%ED%98%84%ED%99%A9.PNG" style="zoom:40%;" />
 
