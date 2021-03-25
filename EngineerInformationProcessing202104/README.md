@@ -47,8 +47,8 @@
 
 | 주차  | 항목                                    | 박미지 | 심재욱 | 이은별 |                            하태린                            |
 | ----- | --------------------------------------- | :----: | :----: | :----: | :----------------------------------------------------------: |
-| 1주차 | 프로그래밍언어 활용 ⭐                   |   ☑️    |   ☑️    |   ☑️    | [☑️](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#10-프로그래밍 언어 활용) |
-|       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐ |   ☑️    |   ⬜    |   ⬜    |                              ⬜                               |
+| 1주차 | 프로그래밍언어 활용 ⭐                   |   ☑️    |   ☑️    |   ☑️    | [☑️](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#10) |
+|       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐ |   ☑️    |   ⬜    |   ⬜    |                              [⬜](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#11)                               |
 |       | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 | 2주차 | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 |       | 데이터 입출력 구현                      |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
