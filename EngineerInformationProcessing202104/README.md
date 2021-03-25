@@ -42,7 +42,7 @@
 * 주차별 진도에 맞춰 각자 스터디를 하고, 완료시 인증문서 링크와 함께 체크박스로 업데이트  합니다.
   * :ballot_box_with_check: ~~**체크박스**를 클릭하면 스터디 인증 문서(googleDocs)를 볼 수 있습니다!! :smiley:~~
 
-- [ ] | 주차  | 항목                                         |          박미지          |          심재욱          |          이은별          |          하태린          |
+- [x] | 주차  | 항목                                         |          박미지          |          심재욱          |          이은별          |          하태린          |
   | ----- | -------------------------------------------- | :----------------------: | :----------------------: | :----------------------: | :----------------------: |
   | 1주차 | 프로그래밍언어 활용 :star:                   | :ballot_box_with_check:  | :ballot_box_with_check:  | :ballot_box_with_check:  | :ballot_box_with_check:  |
   |       | 응용 SW 기초기술 활용(서버, 운영체제) :star: | :ballot_box_with_check:  |   :white_large_square:   | [:white_large_square:]() | [:white_large_square:]() |
