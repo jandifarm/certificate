@@ -24,7 +24,7 @@
   1. [박미지](https://docs.google.com/document/d/1l3hszE2Ce8p4Uw6HK652rpPiV8_izAaB12eGZS17RsE/edit?usp=sharing)
   2. [심재욱](https://docs.google.com/)
   3. [이은별](https://docs.google.com/document/d/1dP9pkxsEYi-9YAKthbDNlj8FXQFtV_ie1CUb8Ay2jrE/edit?usp=sharing)
-  4. [하태린](https://docs.google.com/)
+  4. [하태린](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md)
 * **벌금** : 3,000원
   * 주 2회 미팅에서 인증 내용 피드백하여 벌금 여부 결정
 
@@ -47,8 +47,8 @@
 
 | 주차  | 항목                                    | 박미지 | 심재욱 | 이은별 |                            하태린                            |
 | ----- | --------------------------------------- | :----: | :----: | :----: | :----------------------------------------------------------: |
-| 1주차 | 프로그래밍언어 활용 ⭐                   |   ☑️    |   ☑️    |   ☑️    | [☑️](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#10) |
-|       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐ |   ☑️    |   ⬜    |   ⬜    |                              [⬜](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#11)                               |
+| 1주차 | 프로그래밍언어 활용 ⭐                   |   ☑️    |   ☑️    |   ☑️    | [☑️](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#CH10.) |
+|       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐ |   ☑️    |   ⬜    |   ⬜    |                              [⬜](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#CH11.)                               |
 |       | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 | 2주차 | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 |       | 데이터 입출력 구현                      |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
