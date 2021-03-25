@@ -41,24 +41,32 @@
 * 주요 출제 항목 순서로 스터디를 진행합니다.
 * 주차별 진도에 맞춰 각자 스터디를 하고, 완료시 인증문서 링크와 함께 체크박스로 업데이트  합니다.
   * :ballot_box_with_check: ~~**체크박스**를 클릭하면 스터디 인증 문서(googleDocs)를 볼 수 있습니다!! :smiley:~~<br>
-| 주차  | 항목                                         |          박미지          |          심재욱          |          이은별          |          하태린          |
-| ----- | -------------------------------------------- | :----------------------: | :----------------------: | :----------------------: | :----------------------: |
-| 1주차 | 프로그래밍언어 활용 :star:                   | :ballot_box_with_check:  | :ballot_box_with_check:  | :ballot_box_with_check:  | :ballot_box_with_check:  |
-|       | 응용 SW 기초기술 활용(서버, 운영체제) :star: | :ballot_box_with_check:  |   :white_large_square:   | [:white_large_square:]() | [:white_large_square:]() |
-|       | 서버 프로그램 :star:                         | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-| 2주차 | 서버 프로그램 :star:                         | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-|       | 데이터 입출력 구현                           | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-|       | SQL응용 :star:                               | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-| 3주차 | SQL응용 :star:                               | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-|       | 소프트웨어 개발보안 구축                     | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-|       | 요구사항 확인                                | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-| 4주차 | 화면설계                                     | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-|       | 애플리케이션 테스트 관리 :star:              | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-|       | 통합 구현                                    | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-|       | 인터페이스 구현(수제비)                      | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-| 5주차 | 오답풀이                                     | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-|       | 전체정리                                     | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() | [:white_large_square:]() |
-| D-day | :trophy: 합격 하자:smile:                    |          :100:           |          :100:           |          :100:           |          :100:           |
+
+
+
+
+| 주차  | 항목                                    | 박미지 | 심재욱 | 이은별 |                            하태린                            |
+| ----- | --------------------------------------- | :----: | :----: | :----: | :----------------------------------------------------------: |
+| 1주차 | 프로그래밍언어 활용 ⭐                   |   ☑️    |   ☑️    |   ☑️    | [☑️](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#프로그래밍언어활용) |
+|       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐ |   ☑️    |   ⬜    |   ⬜    |                              ⬜                               |
+|       | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+| 2주차 | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+|       | 데이터 입출력 구현                      |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+|       | SQL응용 ⭐                               |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+| 3주차 | SQL응용 ⭐                               |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+|       | 소프트웨어 개발보안 구축                |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+|       | 요구사항 확인                           |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+| 4주차 | 화면설계                                |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+|       | 애플리케이션 테스트 관리 ⭐              |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+|       | 통합 구현                               |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+|       | 인터페이스 구현(수제비)                 |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+| 5주차 | 오답풀이                                |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+|       | 전체정리                                |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+| D-day | 🏆 합격 하자😄                            |   💯    |   💯    |   💯    |                              💯                               |
+
+
+
+
 ---
 
 
