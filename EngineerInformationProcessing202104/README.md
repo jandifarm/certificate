@@ -40,7 +40,6 @@
 
 * 주요 출제 항목 순서로 스터디를 진행합니다.
 * 주차별 진도에 맞춰 각자 스터디를 하고, 완료시 인증문서 링크와 함께 체크박스로 업데이트  합니다.
-  * :ballot_box_with_check: ~~**체크박스**를 클릭하면 스터디 인증 문서(googleDocs)를 볼 수 있습니다!! :smiley:~~<br>
 
 
 
@@ -48,7 +47,7 @@
 | 주차  | 항목                                    | 박미지 | 심재욱 | 이은별 |                            하태린                            |
 | ----- | --------------------------------------- | :----: | :----: | :----: | :----------------------------------------------------------: |
 | 1주차 | 프로그래밍언어 활용 ⭐                   |   ☑️    |   ☑️    |   ☑️    | [☑️](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#ch10) |
-|       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐ |   ☑️    |   ⬜    |   ⬜    |                              [⬜](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#ch11)                               |
+|       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐ |   ☑️    |   ⬜    |   ☑️    |                              [⬜](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#ch11)                               |
 |       | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 | 2주차 | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 |       | 데이터 입출력 구현                      |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
