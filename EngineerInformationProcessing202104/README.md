@@ -21,7 +21,7 @@
   1. 각자 공부내용 문서화(google docs)
   2. 미팅에서 함께 피드백
 * **공부문서**(이름 클릭 시 문서링크로 이동!!:smiley:)
-  1. [박미지](https://docs.google.com/document/d/1l3hszE2Ce8p4Uw6HK652rpPiV8_izAaB12eGZS17RsE/edit?usp=sharing)
+  1. [박미지](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/miji_note.md)
   2. [심재욱](https://docs.google.com/)
   3. [이은별](https://docs.google.com/document/d/1dP9pkxsEYi-9YAKthbDNlj8FXQFtV_ie1CUb8Ay2jrE/edit?usp=sharing)
   4. [하태린](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md)
