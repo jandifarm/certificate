@@ -22,7 +22,7 @@
   2. 미팅에서 함께 피드백
 * **공부문서**(이름 클릭 시 문서링크로 이동!!:smiley:)
   1. [박미지](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/miji_note.md)
-  2. [심재욱](https://docs.google.com/)
+  2. [심재욱](https://docs.google.com/document/d/1_iJamNB890EGkPm0LkdUcO-2ceVCm5Wi9BfIPJ_nlrk/edit?usp=sharing)
   3. [이은별](https://docs.google.com/document/d/1dP9pkxsEYi-9YAKthbDNlj8FXQFtV_ie1CUb8Ay2jrE/edit?usp=sharing)
   4. [하태린](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md)
 * **벌금** : 3,000원
