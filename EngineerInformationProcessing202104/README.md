@@ -13,7 +13,6 @@
 ---
 
 
-
 ### 잔디농장 운영 상세
 
 * **미팅일정** : 매주 수요일(22:30), 일요일(09:30)
@@ -30,7 +29,7 @@
   
 * **공부문서**(이름 클릭 시 문서링크로 이동!!:smiley:)
   1. [박미지](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/miji_note.md)
-  2. [심재욱](https://docs.google.com/)
+  2. [심재욱](https://docs.google.com/document/d/1_iJamNB890EGkPm0LkdUcO-2ceVCm5Wi9BfIPJ_nlrk/edit?usp=sharing)
   3. [이은별](https://docs.google.com/document/d/1dP9pkxsEYi-9YAKthbDNlj8FXQFtV_ie1CUb8Ay2jrE/edit?usp=sharing)
   4. [하태린](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md)
   
@@ -53,7 +52,6 @@
 
 * 주요 출제 항목 순서로 스터디를 진행합니다.
 * 주차별 진도에 맞춰 각자 스터디를 하고, 완료시 인증문서 링크와 함께 체크박스로 업데이트  합니다.
-  * :ballot_box_with_check: ~~**체크박스**를 클릭하면 스터디 인증 문서(googleDocs)를 볼 수 있습니다!! :smiley:~~<br>
 
 
 
