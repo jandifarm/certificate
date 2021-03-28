@@ -17,18 +17,31 @@
 ### 잔디농장 운영 상세
 
 * **미팅일정** : 매주 수요일(22:30), 일요일(09:30)
+
+  <details> <summary>미팅 상세</summary> <div markdown="1">  
+  [3/28(일)]
+      - 회의불참예정 4/4(일) 재욱
+  	- 진도 조정</div> </details>
+
 * **공부인증**
+  
   1. 각자 공부내용 문서화(google docs)
   2. 미팅에서 함께 피드백
+  
 * **공부문서**(이름 클릭 시 문서링크로 이동!!:smiley:)
   1. [박미지](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/miji_note.md)
   2. [심재욱](https://docs.google.com/)
   3. [이은별](https://docs.google.com/document/d/1dP9pkxsEYi-9YAKthbDNlj8FXQFtV_ie1CUb8Ay2jrE/edit?usp=sharing)
   4. [하태린](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md)
+  
 * **벌금** : 3,000원
+  
   * 주 2회 미팅에서 인증 내용 피드백하여 벌금 여부 결정
-
-
+  
+  * [google exel 바로가기](https://drive.google.com/file/d/1ncSo-WN10mcGrhfsHAylRmeK5uTeZDZU/view?usp=sharing)
+  
+    <details> <summary>벌금 상세</summary> <div markdown="1">  
+    * 3/28(일) 심재욱, 하태린 3,000원</div> </details>
 
 ---
 
@@ -49,7 +62,6 @@
 | ----- | --------------------------------------- | :----: | :----: | :----: | :----------------------------------------------------------: |
 | 1주차 | 프로그래밍언어 활용 ⭐                   |   ☑️    |   ☑️    |   ☑️    | [☑️](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#ch10) |
 |       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐ |   ☑️    |   ⬜    |   ☑️    | [⬜](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#ch11) |
-|       | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 | 2주차 | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 |       | 데이터 입출력 구현                      |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 |       | SQL응용 ⭐                               |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
