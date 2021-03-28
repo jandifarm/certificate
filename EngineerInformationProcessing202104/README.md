@@ -13,7 +13,6 @@
 ---
 
 
-
 ### 잔디농장 운영 상세
 
 * **미팅일정** : 매주 수요일(22:30), 일요일(09:30)
@@ -47,7 +46,7 @@
 | 주차  | 항목                                    | 박미지 | 심재욱 | 이은별 |                            하태린                            |
 | ----- | --------------------------------------- | :----: | :----: | :----: | :----------------------------------------------------------: |
 | 1주차 | 프로그래밍언어 활용 ⭐                   |   ☑️    |   ☑️    |   ☑️    | [☑️](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#ch10) |
-|       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐ |   ☑️    |   ⬜    |   ☑️    |                              [⬜](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#ch11)                               |
+|       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐ |   ☑️    |   ⬜    |   ⬜    |                              [⬜](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#ch11)                               |
 |       | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 | 2주차 | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 |       | 데이터 입출력 구현                      |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
