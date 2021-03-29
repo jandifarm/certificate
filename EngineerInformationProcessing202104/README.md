@@ -40,7 +40,7 @@
   * [google exel 바로가기](https://drive.google.com/file/d/1ncSo-WN10mcGrhfsHAylRmeK5uTeZDZU/view?usp=sharing)
   
     <details> <summary>벌금 상세</summary> <div markdown="1">  
-    * 3/28(일) 심재욱, 하태린 3,000원</div> </details>
+    * 3/28(일) 심재욱, 하태린 3,000원 </div> </details>
 
 ---
 
@@ -60,7 +60,7 @@
 | ----- | --------------------------------------- | :----: | :----: | :----: | :----------------------------------------------------------: |
 | 1주차 | 프로그래밍언어 활용 ⭐                   |   ☑️    |   ☑️    |   ☑️    | [☑️](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#ch10) |
 |       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐ |   ☑️    |   ⬜    |   ☑️    | [⬜](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md#ch11) |
-| 2주차 | 서버 프로그램 ⭐                         |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
+| 2주차 | 서버 프로그램 ⭐                         |   ☑️    |   ⬜    |   ⬜    |                              ⬜                               |
 |       | 데이터 입출력 구현                      |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 |       | SQL응용 ⭐                               |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
 | 3주차 | SQL응용 ⭐                               |   ⬜    |   ⬜    |   ⬜    |                              ⬜                               |
