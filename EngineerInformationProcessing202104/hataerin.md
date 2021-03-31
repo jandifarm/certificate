@@ -11,29 +11,32 @@
 | ⚡️PART 05 | [인터페이스 구현](#part-05-인터페이스-구현)       | ⚡️PART 11 | [응용 SW 기초 기술 활용](#part-11-응용-sw-기초-기술-활용)    |
 | ⚡️PART 06 | [화면 설계](#part-06-화면-설계)                   | ⚡️PART 12 | [제품 소프트웨어 패키징](#part-12-제품-소프트웨어-패키징)    |
 
+</br>
 
-
-<hr>
-
-## PART 10 프로그래밍 언어 활용
-
+### 📄오답노트 양식
 000. #### 문제문제?
 
 ```
 뫄뫄뫄뫄 이러한것은 무엇인가?
 ```
 <details> <summary>답</summary> <div markdown="1">  
+  
+  ```
   저엉다압
+  ```
   
   ##### 해설
-    > 이러이러해서 이게 정답이다
+    이러이러해서 이게 정답이다
  
  ##### 추가 개념:
-  - Eclipse: JAVA, JSP
-  - Visual Studio: C++, C#, .net
-  - IntelliJ: JAVA, Kotlin, Go
-  - Xcode: Objective-c, swift
+    - 쁘걸 : 롤린, 운전만해
+    - 아이유 : 어푸, 라일락
 </div> </details>
+
+<hr>
+
+## PART 10 프로그래밍 언어 활용
+
 
 
 
