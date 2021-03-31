@@ -20,16 +20,22 @@
 000. #### 문제문제?
 
 ```
-정답정답
+뫄뫄뫄뫄 이러한것은 무엇인가?
 ```
-
-답: IDE
-
-- 추가 개념:
+<details> <summary>답</summary> <div markdown="1">  
+  저엉다압
+  
+  ##### 해설
+    > 이러이러해서 이게 정답이다
+ 
+ ##### 추가 개념:
   - Eclipse: JAVA, JSP
   - Visual Studio: C++, C#, .net
   - IntelliJ: JAVA, Kotlin, Go
   - Xcode: Objective-c, swift
+</div> </details>
+
+
 
 
 ## PART 11 응용 SW 기초 기술 활용
