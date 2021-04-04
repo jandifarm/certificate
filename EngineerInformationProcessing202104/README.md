@@ -26,6 +26,7 @@
   
   1. 각자 공부내용 문서화(google docs)
   2. 미팅에서 함께 피드백
+  3. 서버프로그램, SQL응용같은 설명이 많은 문제는 (1)키워드 기재 (2)페이지 표시 등으로 요약해서 정리하기
   
 * **공부문서**(이름 클릭 시 문서링크로 이동!!:smiley:)
   1. [박미지](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/miji_note.md)
