@@ -614,7 +614,7 @@ print(a)
 
 ## PART 09 SQL 응용
 
-242. 알맞은 SQL 유형은?
+242. #### 알맞은 SQL 유형은?
 
 - _ : 데이터베이스에 저장된 데이터를 수정,삭제, 추가하는 명령어(INSERT, UPDATE, DELETE)
 - _ : 데이터베이스 객체를 생성하고 수정, 삭제하는 명령어(CREATE,ALTER, DROP, TRUNCATE)
@@ -634,10 +634,12 @@ print(a)
 
 </div> </details>
 
-243. 알맞은 유형의 명령어는?
+243. #### 알맞은 유형의 명령어는?
 
-1. DML, 테이블 특정행 삭제, 저장 공간 반납 안됨, 롤 백 가능, 작업속도 느림
-2. DDL, 테이블의 모든 행 삭제, 저장 공간 반납, 롤 백 불가, 작업속도 빠름
+     1. DML, 테이블 특정행 삭제, 저장 공간 반납 안됨, 롤 백 가능, 작업속도 느림
+
+     2. DDL, 테이블의 모든 행 삭제, 저장 공간 반납, 롤 백 불가, 작업속도 빠름
+
 
 <details> <summary>답</summary> <div markdown="1">  
 
@@ -654,11 +656,11 @@ print(a)
 
 </div> </details>
 
-245. 사원 테이블(EMPLOYEE)에서 부서번호(dno) 종류를 검색하는 SELECT문은?
+245. #### 사원 테이블(EMPLOYEE)에서 부서번호(dno) 종류를 검색하는 SELECT문은?
 
 <details> <summary>답</summary> <div markdown="1">  
 
-  ```
+  ```mysql
 SELECT DISTINCT DNO FROM EMPLOYEE;
   ```
 
@@ -670,11 +672,11 @@ DISTINCT는 테이블의 검색 결과 데이터 중에 중복된 컬럼을 제�
 
 </div> </details>
 
-246. 사원(EMPLOYEE) 테이블에서 이름(EMPNAME)의 가운데가 '상'인 사원의 이름과 급여를 검색하는 SELECT 문을 작성
+246. #### 사원(EMPLOYEE) 테이블에서 이름(EMPNAME)의 가운데가 '상'인 사원의 이름과 급여를 검색하는 SELECT 문을 작성
 
 <details> <summary>답</summary> <div markdown="1">  
 
-  ```
+  ```mysql
 SELECT EMPNAME, SALARY FROM EMPLOYEE WHERE EMPNAME LIKE '%상%';
   ```
 
@@ -688,7 +690,98 @@ SELECT EMPNAME, SALARY FROM EMPLOYEE WHERE EMPNAME LIKE '%상%';
 
 </div> </details>
 
-247. 
+248. #### 부서번호(DNO)가 1번에 속한 사원들의 이름과 급여를 검색한 결과를 급여가 높은 순서대로 정렬
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+SELECT SALARY FROM EMPLOYEE WHERE DNO=1 ORDER BY SALARY DESC;
+  ```
+
+##### 해설(추가 개념)
+
+```
+ORDER	명령어를 이용해 검색 결과를 오름차순(ASC) 또는 내림차순(DESC)로 정렬 가능
+```
+
+</div> </details>
+
+250. #### 추가 개념
+
+| 집계함수   | 설명                                   |
+| ---------- | -------------------------------------- |
+| COUNT()    | 튜플(행)이나 값들의 개수 -> 널값 포함! |
+| SUM()      | 값들의 합                              |
+| AVG()      | 값들의 평균값                          |
+| MAX()      | 값들의 최대값                          |
+| MIN()      | 값들의 최소값                          |
+| STDDEV()   | 값들의 표준편차값                      |
+| VARIANCE() | 값들의 분산값                          |
+
+ex) SELECT COUNT(*) FROM 학생;
+
+251. INSERT문 작성(학생 테이블)
+
+```
+이름: 황진이, 학번: 20005, 전화번호: 345-6789, 국어점수:90, 수학점수:95
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+INSERT INTO 학생(이름,학번, 전화번호, 국어점수, 수학점수) VALUES(황진이, 20005, 345-6789, 90, 95);
+  ```
+
+##### 해설(추가 개념)
+
+```mysql
+테이블에 새로운 튜플을 한 번에 여러 개씩 삽입하고자 하면 INSERT문에 서브쿼리 이용
+-VALUES 대신 SELECT 절 기술
+ex) INSERT INTO 테이블명(컬럼1, 컬럼2....)
+SELECT절
+```
+
+</div> </details>
+
+252. #### 학생 테이블에서 전공과목의 국어 점수가 90점 이하인 데이터를 삭제하는 쿼리문
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+DELETE FROM 학생 WHERE 전공과목 = '국어' AND 점수 <=90;
+  ```
+
+</div> </details>
+
+253. #### 학생 테이블에서 학번이 1236이고 전공과목이 영어인 학생의 점수를 100으로 수정하는 쿼리문
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+UPDATE 학생 SET 점수=100 WHERE 학번='1236'AND 전공과목='영어'
+  ```
+
+</div> </details>
+
+254. #### 사원 테이블 생성문
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+CREATE TABLE EMPLOYEE(
+ EMPNO NUMBER NOT NULL,
+ EMPNAME VARCHAR2(20),
+ SALARY NUMBER,
+ DNO NOT NULL
+);
+  ```
+
+</div> </details>
 
 <hr>
 
@@ -940,4 +1033,61 @@ SELECT EMPNAME, SALARY FROM EMPLOYEE WHERE EMPNAME LIKE '%상%';
 383. #### 운영체제의 운영 기법 중 동시에 프로그램을 수행할 수 있는 CPU를 두 개 이상 두고 각각 그 업무를 분담하여 처리할 수 있는 방식?
 
 답: 다중 처리 시스템(**379번 참고!!**)
+
+384. #### 물리적인 메모리 용량보다 더 큰 용량의 프로그램을 실행할 수 있도록 보조 기억 장치 용량에 해당하는 용량만큼 메모리 용량을 확장하여 사용할 수 있도록 하는 기법은?
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+가상 메모리/가상 기억장치, Virtual Memory(VM)
+  ```
+
+</div> </details>
+
+385. #### OS의 가상기억장치 관리에서 프로세스가 일정 시간동안 자주 참조하는 페이지들의 집합을 의미하는 것으로 스래싱(Thrashing)을 방지하는 기법은?
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+워킹세트(Working set)
+  ```
+
+</div> </details>
+
+386. #### 연속된 데이터 또는 명령어들을 기억장치 모듈에 순차적으로 번갈아 가면서 처리하는 방식은?
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+메모리 인터리빙, 기억 장치 끼워넣기
+  ```
+
+</div> </details>
+
+387. 메모리의 페이지 교체기법 중 가장 오랫동안 사용되지 않을 페이지를 교체기법은?
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+LRU(Least Recently Used System), 최저 사용 빈도
+  ```
+
+##### 해설(추가 개념)
+
+페이지 교체 알고리즘:
+
+| 구분                                                    | 내용                                                         | 특징                                                         |
+| ------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **무작위 페이지 교체<br />/Random Page Replacement**    | 특별한 사용자에게 차이를 ㄷ지 않고 교체할 페이지를 무작위로 선정해 교체하는 기법 | 오버헤드가 적고 바로 뒤에 참조될 페이지도 교체 가능          |
+| **FIFO/선입선출**                                       | 메모리에 올라온 지 가장 오래된 페이지를 교체                 | 선입선출 이상현상 발생: 프로세스에 더 많은 페이지를 할당할 경우 더 많은 페이지 부재가 발생하는 현상 |
+| **OPR/최적 페이지 교체<br />/Optimal Page Replacement** | 앞으로 가장 오랫동안 사용되지 않을 페이지를 찾아 교체        | FIFO의 모순을 해결, 구현이 비현실적                          |
+| **LRU/최저 사용 빈도<br />/Least Recently Used**        | 가장 오랫동안 사용되지 않을 페이지 교체                      | 호출시간을 기록해야 하는 오버헤드 발생하나 효율적            |
+| **LFU/최소 사용 빈도<br />/Least Frequently Used**      | 사용빈도가 가장 적은 페이지를 교체하는 기법                  | 구역성 문제 발생                                             |
+| **NUR/최근 사용 전무<br />/Not Used Recently**          | 최근에 사용되지 않은 페이지를 교체하는 기법                  | 참조비트, 변경 비트 사용, LRU 시간 오버헤드 해결             |
+
+</div> </details>
 
