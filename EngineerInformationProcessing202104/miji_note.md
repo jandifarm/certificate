@@ -654,7 +654,41 @@ print(a)
 
 </div> </details>
 
-245. 
+245. 사원 테이블(EMPLOYEE)에서 부서번호(dno) 종류를 검색하는 SELECT문은?
+
+<details> <summary>답</summary> <div markdown="1">  
+
+  ```
+SELECT DISTINCT DNO FROM EMPLOYEE;
+  ```
+
+##### 해설(추가 개념)
+
+```
+DISTINCT는 테이블의 검색 결과 데이터 중에 중복된 컬럼을 제외하고자 할 때 사용됨
+```
+
+</div> </details>
+
+246. 사원(EMPLOYEE) 테이블에서 이름(EMPNAME)의 가운데가 '상'인 사원의 이름과 급여를 검색하는 SELECT 문을 작성
+
+<details> <summary>답</summary> <div markdown="1">  
+
+  ```
+SELECT EMPNAME, SALARY FROM EMPLOYEE WHERE EMPNAME LIKE '%상%';
+  ```
+
+##### 해설(추가 개념)
+
+```
+- LIKE '이%': '이'로 시작하는 이름들 검색
+- LIKE '_길동': 길동으로 끝나는 이름들 검색
+- LIKE '[김이]': 김 또는 이로 시작하는 이름들 검색
+```
+
+</div> </details>
+
+247. 
 
 <hr>
 
