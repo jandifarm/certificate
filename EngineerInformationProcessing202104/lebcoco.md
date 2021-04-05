@@ -1,19 +1,12 @@
-2021 정처기 실기 정리 노트
+# :notebook_with_decorative_cover: 2021 정처기 실기 정리 노트 :wink:
 
-## 👉목차👈
-
-⚡️[PART 06 서버 프로그램](#part-06-서버-프로그램)
-
-⚡️[PART 11 프로그래밍언어 활용](#part-11-프로그래밍언어-활용)
-
-⚡️[PART 12 응용 SW 기초기술 활용](#part-12-응용-sw-기초기술-활용)
-
-<hr>
+* lebcoco는 google Docs에 계속 update하고 있습니다.
 
 
-## PART 06 서버 프로그램
 
-## PART 11 프로그래밍언어 활용
 
-## PART 12 응용 SW 기초기술활용
 
+
+
+* check :eyes:
+  * 04/05 월 SQL응용 - 문제 277, 281
