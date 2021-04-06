@@ -783,6 +783,137 @@ CREATE TABLE EMPLOYEE(
 
 </div> </details>
 
+255. 추가 개념: PK 생성 방법
+
+<details> <summary>답</summary> <div markdown="1">  
+
+  ```mysql
+CREATE TABLE EMPLOYEE(
+ EMPNO NUMBER NOT NULL,
+ EMPNAME VARCHAR2(20),
+ SALARY NUMBER,
+ DNO NOT NULL,
+ PRIMARY KEY(EMPNO),
+ FOREIGN KEY(EMPNAME) REFERENCES EMPLOYEE(EMPNO),
+ CONSTRAINT SALARY CHECK ~
+);
+  ```
+
+##### 해설(추가 개념)
+
+```mysql
+CREATE TABLE [테이블명](
+ 속성명 data_type [NOT NULL], ...,
+ PRIMARY KEY(기본키 속성명),
+ UNIQUE(대체키_속성명),
+ FOREIGN KEY(외래키_속성명, ...) REFERENCES 참조테이블(기본키_속성명),
+ CONSTRAINT 제약조건명 CHECK(조건식)
+);
+```
+
+</div> </details>
+
+256. 데이터베이스에서 학생 테이블의 컬럼을 추가, 변경, 삭제하는 DDL문 작성
+
+```mysql
+/* 점수 컬럼을 추가 */
+(1) TABLE 학생 (2) COLUMN 점수;
+
+/* 점수 컬럼을 변경*/
+(1) TABLE 학생 (3) COLUMN 점수 VARCHAR2(20);
+
+/* 점수 컬럼을 삭제 */
+(1) TABLE 학생 (4) COLUMN 점수;
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+  ```mysql
+1. ALTER
+2. ADD
+3. MODIFY
+4. DROP
+  ```
+
+</div> </details>
+
+257. 데이터베이스에서 학생 테이블의 이름을 신입생 테이블명으로 변경하는 DDL문
+
+```mysql
+(1) TABLE 학생 TO 신입생;
+또는
+ALTER TABLE 학생 (1) TO 신입생;
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+  ```mysql
+1. RENAME
+  ```
+
+</div> </details>
+
+259. 데이터베이스 관리자 권한으로 user01 계정 삭제하는 DDL문 작성
+
+<details> <summary>답</summary> <div markdown="1">  
+
+  ```mysql
+DROP USER USER01;
+  ```
+
+</div> </details>
+
+260. 관리자 권한으로 info_01 계정의 패스워드 변경하는 DDL문 작성
+
+<details> <summary>답</summary> <div markdown="1">  
+
+  ```mysql
+ALTER USER info_01 IDENTIFIED BY kit2020;
+  ```
+
+</div> </details>
+
+261. 학생 테이블과 동일한 스키마의 v_ 학생 뷰를 생성 또는 갱신하는 DDL 문장
+
+```mysql
+(1) OR (2) VIEW v_ 학생 as
+SELECT * FROM 학생;
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+  ```mysql
+1. CREATE 2. REPLACE
+  ```
+
+</div> </details>
+
+262. DCL문 채우기
+
+```
+생성자는 자신이 소유한 임의의 객체에 대한 특정 권한을 (1) 문을 사용하여 다른 사용자나 역할에게 허가할 수 있다. 또는 (2) 권한을 허가했던 사람만 그 권한을 취소할 수 있다.
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+  ```mysql
+1. GRANT 2. REVOKE
+  ```
+
+##### 해설(추가 개념)
+
+```
+- COMMIT: 수행된 결과를 실제 물리적 디스크로 저장
+- ROLLBACK: 명령 수행 실패를 의미하며 수행된 결과를 원복 시킴
+- SAVEPOINT: 저장점 지정, 지정된 저장점 부터 현재까지 일부만 ROLLBACK 가능
+- GRANT: 데이터베이스 사용자에게 사용 권한 부여
+- REVOKE: 데이터베이스 사용자에게 부여된 사용 권한 취소
+```
+
+
+
+</div> </details>
+
 <hr>
 
 ## PART 11 프로그래밍언어 활용
