@@ -1125,9 +1125,17 @@ SELECT WINDOW_FUNCTION (ARGUMENTS) OVER
 
 277. 
 
-<img src="img/IMG_8306.PNG"  width="700" height="370"> 
+<img src="img/277.pdf"  > 
 
-<img src="img/IMG_8307.PNG"  width="700" height="370"> 
+<details> <summary>답</summary> <div markdown="1">  
+
+
+
+<img src="img/277_1.pdf"  >
+
+</div> </details>
+
+
 
 <hr>
 
