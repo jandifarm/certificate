@@ -693,8 +693,6 @@ SELECT EMPNAME, SALARY FROM EMPLOYEE WHERE EMPNAME LIKE '%상%';
 248. #### 부서번호(DNO)가 1번에 속한 사원들의 이름과 급여를 검색한 결과를 급여가 높은 순서대로 정렬
 
 <details> <summary>답</summary> <div markdown="1">  
-
-
   ```mysql
 SELECT SALARY FROM EMPLOYEE WHERE DNO=1 ORDER BY SALARY DESC;
   ```
@@ -728,8 +726,6 @@ ex) SELECT COUNT(*) FROM 학생;
 ```
 
 <details> <summary>답</summary> <div markdown="1">  
-
-
   ```mysql
 INSERT INTO 학생(이름,학번, 전화번호, 국어점수, 수학점수) VALUES(황진이, 20005, 345-6789, 90, 95);
   ```
@@ -748,8 +744,6 @@ SELECT절
 252. #### 학생 테이블에서 전공과목의 국어 점수가 90점 이하인 데이터를 삭제하는 쿼리문
 
 <details> <summary>답</summary> <div markdown="1">  
-
-
   ```mysql
 DELETE FROM 학생 WHERE 전공과목 = '국어' AND 점수 <=90;
   ```
@@ -759,8 +753,6 @@ DELETE FROM 학생 WHERE 전공과목 = '국어' AND 점수 <=90;
 253. #### 학생 테이블에서 학번이 1236이고 전공과목이 영어인 학생의 점수를 100으로 수정하는 쿼리문
 
 <details> <summary>답</summary> <div markdown="1">  
-
-
   ```mysql
 UPDATE 학생 SET 점수=100 WHERE 학번='1236'AND 전공과목='영어'
   ```
@@ -770,8 +762,6 @@ UPDATE 학생 SET 점수=100 WHERE 학번='1236'AND 전공과목='영어'
 254. #### 사원 테이블 생성문
 
 <details> <summary>답</summary> <div markdown="1">  
-
-
   ```mysql
 CREATE TABLE EMPLOYEE(
  EMPNO NUMBER NOT NULL,
@@ -783,7 +773,7 @@ CREATE TABLE EMPLOYEE(
 
 </div> </details>
 
-255. 추가 개념: PK 생성 방법
+255. #### 추가 개념: PK 생성 방법
 
 <details> <summary>답</summary> <div markdown="1">  
 
@@ -813,7 +803,7 @@ CREATE TABLE [테이블명](
 
 </div> </details>
 
-256. 데이터베이스에서 학생 테이블의 컬럼을 추가, 변경, 삭제하는 DDL문 작성
+256. #### 데이터베이스에서 학생 테이블의 컬럼을 추가, 변경, 삭제하는 DDL문 작성
 
 ```mysql
 /* 점수 컬럼을 추가 */
@@ -837,7 +827,7 @@ CREATE TABLE [테이블명](
 
 </div> </details>
 
-257. 데이터베이스에서 학생 테이블의 이름을 신입생 테이블명으로 변경하는 DDL문
+257. #### 데이터베이스에서 학생 테이블의 이름을 신입생 테이블명으로 변경하는 DDL문
 
 ```mysql
 (1) TABLE 학생 TO 신입생;
@@ -853,7 +843,7 @@ ALTER TABLE 학생 (1) TO 신입생;
 
 </div> </details>
 
-259. 데이터베이스 관리자 권한으로 user01 계정 삭제하는 DDL문 작성
+259. #### 데이터베이스 관리자 권한으로 user01 계정 삭제하는 DDL문 작성
 
 <details> <summary>답</summary> <div markdown="1">  
 
@@ -863,7 +853,7 @@ DROP USER USER01;
 
 </div> </details>
 
-260. 관리자 권한으로 info_01 계정의 패스워드 변경하는 DDL문 작성
+260. #### 관리자 권한으로 info_01 계정의 패스워드 변경하는 DDL문 작성
 
 <details> <summary>답</summary> <div markdown="1">  
 
@@ -873,7 +863,7 @@ ALTER USER info_01 IDENTIFIED BY kit2020;
 
 </div> </details>
 
-261. 학생 테이블과 동일한 스키마의 v_ 학생 뷰를 생성 또는 갱신하는 DDL 문장
+261. #### 학생 테이블과 동일한 스키마의 v_ 학생 뷰를 생성 또는 갱신하는 DDL 문장
 
 ```mysql
 (1) OR (2) VIEW v_ 학생 as
@@ -888,7 +878,7 @@ SELECT * FROM 학생;
 
 </div> </details>
 
-262. DCL문 채우기
+262. #### DCL문 채우기
 
 ```
 생성자는 자신이 소유한 임의의 객체에 대한 특정 권한을 (1) 문을 사용하여 다른 사용자나 역할에게 허가할 수 있다. 또는 (2) 권한을 허가했던 사람만 그 권한을 취소할 수 있다.
@@ -910,9 +900,234 @@ SELECT * FROM 학생;
 - REVOKE: 데이터베이스 사용자에게 부여된 사용 권한 취소
 ```
 
+</div> </details>
 
+263. #### 사용자 user02가 user03 계정에게 학생 테이블을 SELECT, DELETE할 수 있는 권한을 부여하는 DCL 문장	
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+GRANT SELECT, DELETE ON 학생 TO user03;
+  ```
+
+  ##### 해설(추가 개념)
+
+```mysql
+GRANT문의 표준 형식
+GRANT 권한 [컬럼 리스트] ON 객체 TO {사용자 | 역할 | PUBLIC}
+[WITH GRANT OPTION]
+```
 
 </div> </details>
+
+264. #### 사용자 user01가 user02 계정에게 학생 테이블을 SELECT, DELETE할 수 있는 권한을 부여하되, user02가 다른 사용자에게 받은 권한을 다시 부여할 수 있는 조건은?
+
+```mysql
+/*user01 사용자가 user02 계정에게 SELECT, DELETE 권한 부여*/
+GRANT SELECT, DELETE ON 학생 TO user02 (1);
+/* 권한을 부여받은 user02 사용자가 다른 user03 계정에게 SELECT, DELETE 권한 부여*/
+GRANT SELECT, DELETE ON 학생 TO user03;
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+1. WITH GRANT OPTION
+  ```
+
+</div> </details>
+
+265. 사용자 user01가 user02 계정에게 학생 테이블에 대한 SELECT, DELETE, UPDATE 권한을 회수(취소)하는 문?
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+REVOKE SELECT, DELETE, UPDATE ON 학생 FROM user02;
+  ```
+
+  ##### 해설(추가 개념)
+
+```mysql
+REVOKE문 표준 형식
+REVOKE {권한 리스트|ALL} ON 객체 FROM {사용자 | 역할 | PUBLIC};
+```
+
+</div> </details>
+
+266. #### WITH GRANT OPTION으로 권한을 부여한 후, 권한 회수 시 어떤 변화가 생기는가?
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+이후에 부여된 모든 권한도 연속하여 회수된다
+  ```
+
+  ##### 해설
+
+    이러이러해서 이게 정답이다
+
+</div> </details>
+
+268. #### 1,2,3 물음에 답하기
+
+```
+1. 저장점(SAVEPOINT)의 개념
+2. 현재 시점을 SVT_01 이름으로 저장됨(SAVEPOINT)을 만드는 DDL 명령어 문장
+3. SVT_01 저장점으로 트랜잭션을 원복하는 DCL 문장
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+1. 현 시점에서 SAVEPOINT 까지 트랜잭션의 일부만 롤백하는 명령어
+2. SAVEPOINT SVT_01
+3. ROLLBACK TO SAVEPOINT SVT_01
+  ```
+
+</div> </details>
+
+269. 외부 조인의 유형
+
+```
+1. 왼쪽 테이블의 모든 데이터와 오른쪽 테이블의 데이터의 동일 데이터를 추출
+2. 오른쪽 테이블의 모든 데이터와 왼쪽 테이블의 동일 데이터를 추출
+3. 양쪽의 모든 데이터를 추출
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+1. 왼쪽 외부 조인
+2. 오른쪽 외부 조인
+3. 완전 외부 조인
+  ```
+
+  ##### 해설(추가 개념)
+
+    외부 조인은 조인 결과에 배제된 행을 결과에 포함하고자 할 때 사용, p2-105에 추가 개념 참고
+
+</div> </details>
+
+270. #### 추가 개념
+
+| 집합 연산자   | 설명                                                     |
+| ------------- | -------------------------------------------------------- |
+| UNION         | 여러 SQL문의 결과에 대한 합집합(중복 행 제거함)          |
+| UNION ALL     | 여러 SQL문의 결과에 대한 합집합(중복 행 제거하지 않음)   |
+| INTERSECTION  | 여러 SQL문의 결과에 대한 교집합(중복 행 제거함)          |
+| EXCEPT(MINUS) | 앞의 SQLANSDML RUFRHKDHK 뒤의 SQL문의 결과 사이의 차집합 |
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+예시:
+SELECT goods FROM exp_goods_asia WHERE country = '한국'
+UNION ALL
+SELECT goods FROM exp_goods_asia WHERE country = '일본'
+  ```
+
+</div> </details>
+
+271. #### 데이터베이스의 사원(EMPLOYEE) 테이블에서 부서별(DNO) 사원의 평균 급여(SAL), 최대 급여, 최소 급여를 검색하는 SQL문을 작성
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+SELECT DNO, AVG(SAL) AS "평균급여", MIN(SAL) AS "최소급여", MAX(SAL) AS "최대급여" FROM EMPLOYEE GROUP BY DNO;
+  ```
+
+  ##### 해설
+
+```mysql
+GROUP BY
+- 그룹별로 개수, 합계, 평균, 최소, 최대 값 등을 검색하기 위해 GROUP BY 사용
+HAVING 그룹 제한조건
+- HAVING절에 나타나는 애트리뷰트는 반드시 GROUP BY 절에 나타나거나 집단 함수에 포함되어야 함
+```
+
+</div> </details>
+
+272. #### 사원들이 속한 부서별로 사원들을 그룹화하고, 평균 급여가 2,500,000 이상인 부서에 대해서 부서번호와 평균급여, 최대 급여를 출력해주는 SQL문
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+SELECT DEPTNO, AVG(SAL) AS "평균급여", MAX(SAL) AS "최대급여" FROM EMPLOYEE
+GROUP BY DNO
+HAVING AVC(SAL) >= 2500000;
+  ```
+
+</div> </details>
+
+273. #### 데이터베이스의 서브쿼리의 개념
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+다른 SQL문 안에 포함되어 WHERE 절, FROM 절, SELECT 절에 사용되는 또 다른 SQL 문
+  ```
+
+</div> </details>
+
+275. #### 1,2,3번 채우기
+
+```
+(1) GROUP BY 절과 함께 사용되어 복수 행에 대한 개수, 합계, 평균, 최소값, 최대값 등을 계싼하는 함수이다.
+(2) 그룹의 소계, 총계와 같이 레벨별로 집계 결과를 조회하기 위해 사용하는 함수로서 ROLLUP(), CUBE(), GROUPING SETS() 함수가 대표적이다.
+(3) 행과 행간의 관계를 쉽게 정의하기 위해 만든 함수로 분석 함수 또는 순위 함수라고도 한다.
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+(1) 집계 합수
+(2) 그룹 함수
+(3) 윈도우 함수
+  ```
+
+</div> </details>
+
+276. RANK() 함수를 이용하여 사원의 부서(DNO) 별로 급여가 높은 순서대로 직무와 이름, 급여와 순위를 출력하는 SQL문
+
+```mysql
+SELECT DNO, EMPNAME, SALARY,
+RANK() OVER((1) BY DNO ORDER BY SALARY DESC) DNO_RANK
+FROM EMP;
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```mysql
+1. PARTITION
+  ```
+
+  ##### 해설
+
+```sql
+윈도우즈 함수의 사용문법
+SELECT WINDOW_FUNCTION (ARGUMENTS) OVER
+([PARTITION BY 칼럼] [ORDER BY 절] [WINDOWING 절]) FROM 테이블 명;
+```
+
+</div> </details>
+
+277. 
+
+<img src="img/IMG_8306.PNG"  width="700" height="370"> 
+
+<img src="img/IMG_8307.PNG"  width="700" height="370"> 
 
 <hr>
 
