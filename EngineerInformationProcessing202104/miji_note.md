@@ -746,32 +746,41 @@ SELECT절
 252. #### 학생 테이블에서 전공과목의 국어 점수가 90점 이하인 데이터를 삭제하는 쿼리문
 
 <details> <summary>답</summary> <div markdown="1">  
-  ```mysql
+
+```mysql
 DELETE FROM 학생 WHERE 전공과목 = '국어' AND 점수 <=90;
-  ```
+```
+
+
 
 </div> </details>
 
 253. #### 학생 테이블에서 학번이 1236이고 전공과목이 영어인 학생의 점수를 100으로 수정하는 쿼리문
 
 <details> <summary>답</summary> <div markdown="1">  
-  ```mysql
+
+```mysql
 UPDATE 학생 SET 점수=100 WHERE 학번='1236'AND 전공과목='영어'
-  ```
+```
+
+
 
 </div> </details>
 
 254. #### 사원 테이블 생성문
 
 <details> <summary>답</summary> <div markdown="1">  
-  ```mysql
+
+```mysql
 CREATE TABLE EMPLOYEE(
  EMPNO NUMBER NOT NULL,
  EMPNAME VARCHAR2(20),
  SALARY NUMBER,
  DNO NOT NULL
 );
-  ```
+```
+
+
 
 </div> </details>
 
@@ -1142,9 +1151,10 @@ SELECT WINDOW_FUNCTION (ARGUMENTS) OVER
 
 
 <hr>
+
 ## PART 10 소프트웨어 개발보안 구축
 
-282. #### 소프트웨어 보안 취약점이란?
+282. 소프트웨어 보안 취약점이란?
 
 <details> <summary>답</summary> <div markdown="1">  
 
