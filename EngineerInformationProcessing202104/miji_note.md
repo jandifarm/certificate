@@ -1660,6 +1660,51 @@ SQL Injection
 
 </div> </details>
 
+321. 
+
+![321](./img/321.jpeg)
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+
+  ```
+SQL 삽입
+  ```
+
+</div> </details>
+
+322. 다음 코드에서 문제점을 설명하고 개선된 코드 작성하기
+
+```java
+String param = request.getParameter("id");
+.....
+String sql = "select name from board where id = "+param+" ";
+Connection con = db.getConnection();
+Statement stmt = con.createStatement();
+ResultSet rs = stmt.executeQuery(sql);
+```
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+
+  ```java
+//문제점: id값에 싱글 쿼테이션 등 특수문자가 입력될 경우 SQL 구문이 변경되어 의도하지 않은 결과 유발 가능
+String param = request.getParameter("id");
+.....
+String sql = "select name from board where id = "+param+" ";
+Connection con = db.getConnection();
+//여기서부터 변경!
+PreparedStatement pstmt = con.prepareStatement(sql);
+pstmt.setString(1,param);
+ResultSet rs = pstmt.executeQuery();
+  ```
+
+</div> </details>
+
 <hr>
 
 ## PART 11 프로그래밍언어 활용
