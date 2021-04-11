@@ -40,13 +40,14 @@
   
   * 주(일요일~토요일, 잔디농장 기준) 최소 5일 이상 certificate 관련 커밋 하기(공갈 커밋? 최대한 자제요망...스마가 확인해보기)
   
-    * 3주차 (4/4(일)~10일(토))만 최소 4일 이상! -> **이번 주 스마: ​*​*:crown:은별언니:crown:**
+    * 3주차 (4/4(일)~10일(토))만 최소 4일 이상! -> **이번 주 스마: :crown:은별:crown:
     * 4주차 (4/11(일)~17(토)) 5일이상 커밋! -> 이번 주 스마: 👑: 은별 :crown:
   
   * [google exel 바로가기](https://drive.google.com/file/d/1ncSo-WN10mcGrhfsHAylRmeK5uTeZDZU/view?usp=sharing)
   
     <details> <summary>벌금 상세</summary> <div markdown="1">  
-    * 3/28(일) 심재욱, 하태린 3,000원 
+    * 3/28(일) 심재욱, 하태린 3,000원
+     
     * 4/11(일) 심재욱, 하태린 3,000원 </div> </details>
 
 ---
