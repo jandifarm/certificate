@@ -78,8 +78,8 @@
 |       | 데이터 입출력 구현                                   |         ☑️          |   ⬜    |   :white_check_mark:    |   ⬜    |
 |       | SQL응용 ⭐                                            |         ☑️          |   ⬜    |   :white_check_mark:    |   ☑️    |
 | 3주차 | SQL응용 ⭐                                            |         ☑️          |   ⬜    |   :white_check_mark:    |   ☑️    |
-|       | 소프트웨어 개발보안 구축                             | :white_check_mark: |   ☑️    |   :white_check_mark:    |   ⬜    |
-|       | 요구사항 확인                                        |         ⬜          |   :white_check_mark:    |   :white_check_mark:    |   ⬜    |
+|       | 소프트웨어 개발보안 구축                             | ☑️ |   ☑️    |   :white_check_mark:    |   ⬜    |
+|       | 요구사항 확인                                        | :white_check_mark: |   :white_check_mark:    |   :white_check_mark:    |   ⬜    |
 | 4주차 | 화면설계                                             |         ⬜          |   ⬜    |   ⬜    |   ⬜    |
 |       | 애플리케이션 테스트 관리 ⭐                           |         ⬜          |   ⬜    |   ⬜    |   ⬜    |
 |       | 통합 구현                                            |         ⬜          |   ⬜    |   ⬜    |   ⬜    |
