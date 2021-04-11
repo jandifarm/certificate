@@ -40,7 +40,7 @@
   
   * 주(일요일~토요일, 잔디농장 기준) 최소 5일 이상 certificate 관련 커밋 하기(공갈 커밋? 최대한 자제요망...스마가 확인해보기)
   
-    * 이번 주(4/7~10일)만 최소 4일 이상! -> **이번 주 스마: ​*​*:crown:은별언니:crown:**
+    * 이번 주(4/4(일)~10일(토))만 최소 4일 이상! -> **이번 주 스마: ​*​*:crown:은별언니:crown:**
   
   * [google exel 바로가기](https://drive.google.com/file/d/1ncSo-WN10mcGrhfsHAylRmeK5uTeZDZU/view?usp=sharing)
   
