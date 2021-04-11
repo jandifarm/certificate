@@ -1555,6 +1555,111 @@ MS-SDL(Microsoft-Secure Development Lifecycle)
 
 </div> </details>
 
+308. #### 소프트웨어 개발 보안 생명주기(SDLC) 방법론 중 어떤 방법론을 설명하고 있는가?
+
+```
+- SDLC 초기 단계에 보안 강화를 목적으로 하는 정형화된 프로세스
+- 활동중심/역할 기반의 프로세스로 구성된 집합체
+- 이미 운영 중인 시스템에 적용 하기 좋음
+```
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+
+  ```
+CLASP(Comprehensive, Lightweight Application Security)
+  ```
+
+  ##### 해설(추가 개념)
+
+    소프트웨어 개발 보안 생명주기 방법론의 유형은 MS-SDL, Seven Touchpoints, CLASP등이 존재
+
+</div> </details>
+
+> 309~314, p2-161 참고!
+
+315. #### CWE(Common Weakness Enumeration) Seven Pernicious Kingdoms에서 정의한 소프트웨어 보안약점에 대해 간략히 서술
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+
+  ```
+1. 입력데이터 검증 및 표현
+2. 보안기능
+3. 시간 및 상태
+4. 에러 처리
+5. 코드품질
+6. 캡슐화
+7. API 악용
+  ```
+
+</div> </details>
+
+310. #### 설명하고 있는 개념은?
+
+```
+이것은 보안 취약점의 근본 원인이 되는 소프트웨어의 결함이나 버그를 의미한다. 이것이 존재하지 않도록 개발하는 방법을 시큐어코딩이라고 한다.
+```
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+
+  ```
+소프트웨어 보안 약점
+  ```
+
+  ##### 해설(추가 개념)
+
+    소프트웨어 개발 보안 생명주기 방법론의 유형은 MS-SDL, Seven Touchpoints, CLASP등이 존재
+
+</div> </details>
+
+317. 괄호에 들어갈 적절한 용어는?
+
+```
+(1)는 소프트웨어의 보안 약점을 사전식으로 분류해놓은 목록이다.
+(2)는 시간에 따라 확인된 보안취약점을 정리한 목록으로 인덱스 형식에 환인 연도가 포함되는 것이 특징이다.
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+
+  ```
+1. CWE 2. CVE
+  ```
+
+  ##### 해설(추가 개념)
+
+    283번 참고!!
+
+</div> </details>
+
+319. 웹 어플리케이션에서 입력받은 파라미터를 변조 후 삽입하여 비정상적인 데이터베이스 접근을 시도하는 기법은?
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+
+  ```
+SQL Injection
+  ```
+
+  ##### 해설(추가 개념)
+
+    - XSS(Cross-Site Scripting): 타 사용자의 정보를 추출하기 위해 사용되는 공격기법으로 게시판에 악성 스크립트를 작성하여 다른 사람이 그 글을 보았을 때 그 글을 본 사람의 쿠키정보를 빼내가는 해킹기법
+    - CSRF(Cross-site request forgery): 공격자가 사용자의 쿠키 값이나 세션 정보를 의도한 사이트로 보내거나 특정한 동작을 유발하는 스크립트를 글에 삽입하여 사용자가 게시물 등을 클릭할 경우 공격자가 원하는 동작이 실행되는 해킹 기법
+    - LAND Attack: 패킷을 전송할 때 출발지 아이피 주소와 목적지 아이피 주소를 똑같이 만들어서 공격 대상에게 보내는 공격
+
+</div> </details>
+
 <hr>
 
 ## PART 11 프로그래밍언어 활용
