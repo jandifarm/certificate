@@ -33,6 +33,13 @@
   2. [심재욱](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/jaewook.md)
   3. [이은별](https://docs.google.com/document/d/1dP9pkxsEYi-9YAKthbDNlj8FXQFtV_ie1CUb8Ay2jrE/edit?usp=sharing)
   4. [하태린](https://github.com/jandifarm/certificate/blob/master/EngineerInformationProcessing202104/hataerin.md)
+
+
+* **퀴즈**
+   * 회의 전 각자 항목 당 2문제씩 준비, 회의 때 풀어보기(회의 당일날 각자 화면공유를 통해 실시간으로 문제 풀어보기, 회의 끝나기 전 공동문서에 정리/합치기 ) ->보상제도 추후 논의 예정(박수와 왕관....:crown:)
+  * 4월 11일: 프로그래밍언어 활용(2문제), 응용 SW 기초기술 활용(2문제) 
+  *   **퀴즈왕** :crown:**심재욱~!~!**
+
   
 * **벌금** : 3,000원
   
@@ -61,8 +68,7 @@
 * 주요 출제 항목 순서로 스터디를 진행합니다.
 * 주차별 진도에 맞춰 각자 스터디를 하고, 완료시 인증문서 링크와 함께 체크박스로 업데이트  합니다.
 * **완료 표시: ☑️, 진행 중 표시: :white_check_mark:**
-* 회의 전 각자 항목 당 2문제씩 준비, 회의 때 풀어보기(회의 당일날 각자 화면공유를 통해 실시간으로 문제 풀어보기, 회의 끝나기 전 공동문서에 정리/합치기 ) ->보상제도 추후 논의 예정(박수와 왕관....:crown:)
-  * 4월 11일: 프로그래밍언어 활용(2문제), 응용 SW 기초기술 활용(2문제) **퀴즈왕** :crown:**심재욱~!~!**
+
 
 
 | 주차  | 항목                                                 |       박미지       | 심재욱 | 이은별 | 하태린 |
