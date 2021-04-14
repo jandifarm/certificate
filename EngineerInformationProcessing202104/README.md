@@ -72,12 +72,12 @@
 
 | 주차  | 항목                                                 |       박미지       | 심재욱 | 이은별 | 하태린 |
 | ----- | ---------------------------------------------------- | :----------------: | :----: | :----: | :----: |
-| 1주차 | 프로그래밍언어 활용 ⭐                                |         ☑️          |   ☑️    |   :white_check_mark:    |   ⬜    |
-|       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐              |         ☑️          |   :white_check_mark:    |   :white_check_mark:    |   ⬜    |
-| 2주차 | 서버 프로그램 ⭐                                      |         ☑️          |   :white_check_mark:    |   :white_check_mark:    |   ☑️    |
+| 1주차 | 프로그래밍언어 활용 ⭐                                |         ☑️          |   ☑️    |   :white_check_mark:    |   ✅    |
+|       | 응용 SW 기초기술 활용(서버, 운영체제) ⭐              |         ☑️          |   :white_check_mark:    |   :white_check_mark:    |   ✅    |
+| 2주차 | 서버 프로그램 ⭐                                      |         ☑️          |   :white_check_mark:    |   :white_check_mark:    |   ✅    |
 |       | 데이터 입출력 구현                                   |         ☑️          |   ⬜    |   :white_check_mark:    |   ⬜    |
-|       | SQL응용 ⭐                                            |         ☑️          |   ⬜    |   :white_check_mark:    |   ☑️    |
-| 3주차 | SQL응용 ⭐                                            |         ☑️          |   ⬜    |   :white_check_mark:    |   ☑️    |
+|       | SQL응용 ⭐                                            |         ☑️          |   ⬜    |   :white_check_mark:    |   ✅    |
+| 3주차 | SQL응용 ⭐                                            |         ☑️          |   ⬜    |   :white_check_mark:    |   ✅    |
 |       | 소프트웨어 개발보안 구축                             | ☑️ |   ☑️    |   :white_check_mark:    |   ⬜    |
 |       | 요구사항 확인                                        | :white_check_mark: |   :white_check_mark:    |   :white_check_mark:    |   ⬜    |
 | 4주차 | 화면설계                                             |         ☑️          |   ⬜    |   ⬜    |   ⬜    |
