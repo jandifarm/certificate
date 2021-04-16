@@ -6,6 +6,8 @@
 
 ⚡️[PART 04 데이터 입출력 구현](#part-04-데이터-입출력-구현)
 
+⚡️[PART 05 통합 구현](#part-05-통합-구현)
+
 ⚡️[PART 06 서버 프로그램](#part-06-서버-프로그램)
 
 ⚡️[PART 07 화면 설계](#part-07-화면-설계)
@@ -19,6 +21,8 @@
 ⚡️[PART 11 프로그래밍언어 활용](#part-11-프로그래밍언어-활용)
 
 ⚡️[PART 12 응용 SW 기초기술 활용](#part-12-응용-sw-기초기술-활용)
+
+⚡️[EXTRA 인터페이스 구현/제품소프트웨어패키징 및 용어](#extra-인터페이스-구현,/제품소프트웨어패키징-및-용어)
 
 <hr>
 
@@ -680,6 +684,104 @@ PaaS(Platform as a Service)
 - 병행 투명성: 다수 트랜잭션 동시 수행 시 결과의 일관성 유지, Time Stamp, 분산 2단계 로킹을 이용 구현
 
 </div> </details>
+
+
+
+<hr>
+
+
+
+## PART 05 통합구현
+
+129. #### ()에 들어갈 단어는?
+
+```
+()은 웹브라우저 간 HTML 문법이 호환되지 않는 문제와 SGML의 복잡성을 해결하기 위하여 개발된 다목적 마크업 언어이다
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+XML
+  ```
+
+</div> </details>
+
+130. ()에 들어갈 단어는?
+
+```
+()은 속성-값 쌍으로 이루어진 데이터 객체를 전달하기 위해 사람이 읽을 수 있는 텍스트를 사용하는 개방형 표준 포맷이다. 비동기 처리에 사용되는 AJAX에서 XML을 대체하여 사용되고 있다.
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+JSON
+  ```
+
+</div> </details>
+
+
+
+131. #### 빈칸 채우기
+
+```
+()은 일반적으로 널리 알려진 HTTP, HTTPS, SMTP 등을 통해 XML 기반의 메시지를 컴퓨터 네트워크 상에서 교환하는 프로토콜이다.
+()은 SOA(SERVICE Oriented Architecture) 개념을 실현하기 위한 기술이다.
+웹서비스는 ()을 객체 접근 프로토콜로 사용하고, WSDL을 통해 웹서비스를 기술하고, UDDI를 통해 웹서비스의 정보를 발행/검색하는 구조이다.
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+SOAP(Simple Object Access Protocol)
+  ```
+
+  ##### 해설
+
+    Application Layer 프로토콜의 TCP 또는 UDP 포트를 사용으로 인한 방화벽 제약을 SOAP의 HTTP 프로토콜 사용으로 해결
+
+</div> </details>
+
+132. #### 다음이 설명하는 기술은?
+
+```
+브라우저가 가지고 있는 XMLHttpRequest 객체를 이용해서 전체 페이지를 새로 고치지 않고도 페이지의 일부분만을 위한 데이터를 로드하는 기법. 최근에는 XML 대신 JSON을 통해 데이터를 주고받는 추세
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+AJAX(Asynchronous JavaScript and XML)
+  ```
+
+</div> </details>
+
+
+
+133. #### ()에 들어갈 단어는?
+
+```
+()란 월드와이드 웹과 같은 분산 하이퍼미디어 시스템을 위한 소프트웨어 아키텍쳐의한 형식이다.
+()는 "웹에 존재하는 모든 자원(이미지, 동영상, 디비 자원)에 고유한 URI를 부여해 활용"하는것으로, 자원을 정의하고 자원에 대한 주소를 지정하는 방법론을 의미한다.
+()의 형식을 따른 시스템을 ()ful 이라고 부른다.
+()는 HTTP의 기본 메소드인 PUT,GET,POST,DELETE,PATCH를 사용한다.
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+REST(Representational State Transfer)
+  ```
+
+</div> </details>
+
+
 
 
 <hr>
@@ -3163,4 +3265,10 @@ LRU(Least Recently Used System), 최저 사용 빈도
 | **NUR/최근 사용 전무<br />/Not Used Recently**          | 최근에 사용되지 않은 페이지를 교체하는 기법                  | 참조비트, 변경 비트 사용, LRU 시간 오버헤드 해결             |
 
 </div> </details>
+
+<hr>
+
+## EXTRA 인터페이스 구현/제품소프트웨어패키징 및 용어
+
+>  아이패드로 필기 예정
 
