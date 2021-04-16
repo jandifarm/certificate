@@ -3267,7 +3267,9 @@ LRU(Least Recently Used System), 최저 사용 빈도
 </div> </details>
 
 <hr>
+
 ## EXTRA1 인터페이스 구현
+
 
 > 수제비 참고
 
