@@ -3460,6 +3460,564 @@ IPv6는 IPv4 주소 부족 문제를 해결하기 위해 개발 되었으며 16�
 
 </div> </details>
 
+473. #### 아래 설명에 해당하는 오류제어 방식의 이름은?
+
+```
+통신 상의 오류가 발생하면 수신 측은 송신 측에 오류가 발생한 사실을 알리고 송신 측에 오류가 발생한 프레임을 재전송할 것을 요구하는 기법
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+ARQ(Auto Repeat Request)
+  ```
+
+
+
+</div> </details>
+
+
+
+474. #### IP주소를 효율적으로 사용하기 위하여 네트워크의 효율적 사용을 위하여 네트워크를 여러 개의 서브네으로 나누는 기법의 이름은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+서브네팅(Subnetting)
+  ```
+
+  ##### 해설
+
+```: 
+슈퍼 네팅(Supernetting): 네트워크에서 수용 가능한 호스트를 확장하기 위하여 여러 개의 서브넷을 합치는 기법
+```
+
+</div> </details>
+
+
+
+475. #### TCP 프로토콜에서 단말기와 단말기 간 세션을 설정할 때, 신뢰성 있는 정보 전송을 제공하기 위하여 연결설정을 하는 기법은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+3방향 연결설정(3Way-HandShaking)
+  ```
+
+
+
+</div> </details>
+
+
+
+476. TCP/IP 네트워크에서 IP 주소를 물리 주소로 변환하는 프로토콜은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+ARP(Address Resolution Protocol)
+  ```
+
+  ##### 해설(추가 개념)
+
+<img src= "./img/476.jpeg">
+
+</div> </details>
+
+477. #### TCP 프로토콜의 TCP의 흐름제어(Flow Control) 기법 중 하나로 윈도우 크기 단위로 바이트를 송신하고, 수신 측에서 수신한 바이트에 대한 확인/응답 신호로 전송하면, 한꺼번에 윈도우 크기만큼 버퍼가 미끄러지듯이 이동하는 기법의 이름은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+슬라이딩 윈도우
+  ```
+
+</div> </details>
+
+
+
+478. #### 데이터 전송 시 미리 정해진 임계값에 도달할 때까지 윈도우의 크기를 전송 시마다 크기를 두 배씩 증가하기 때문에 전송되는 데이터의 크기는 지수 함수적으로 증가시키는 기법은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+슬로우 스타트
+  ```
+
+
+
+</div> </details>
+
+
+
+480. #### TCP/IP 네트워크에서 물리 주소인 MAC 주소를 IP 주소로 역 주소 변환 프로토콜은 무엇인지 쓰시오
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+RARP
+  ```
+
+  ##### 해설
+
+    역주소 변환이라서 Reverse가 앞에 붙음
+
+</div> </details>
+
+481. #### IEEE 802.11 워킹 그룹의 무선 랜 표준화 현황 중 보안을 위한 MAC 지원 기능을 채택한 표준의 이름은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+802.11i
+  ```
+
+
+
+</div> </details>
+
+
+
+482. #### 10m 이내의 짧은 거리에 존재하는 여러 디지털 장치를 식별하고 기기 사이의 데이터 전송 및 제어가 가능한 ad-hoc 기반의 무선 네트워크 기술을 쓰시오.
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+WPAN(Wireless Personal Area Network)
+  ```
+
+</div> </details>
+
+
+
+483. #### 외부 네트워크에 알려진 것과 다른 IP주소를 사용하는 내부 네트워크에서 IP주소를 변환하는 기술을 쓰시오
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+NAT(Network Access Translation)
+  ```
+
+
+
+</div> </details>
+
+
+
+484. #### 네트워크 관리자가 일정한 시간 동안만 유효하도록 하는 임대 개념의 IP주소를 할당하고 관리할 수 있도록 하는 프로토콜은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+DHCP(Dynamic Host Configuration Protocol)
+  ```
+
+</div> </details>
+
+
+
+485. #### 컨텐츠 제공업자(CP)의 웹 서버에 집중되어 있는 용량이 크고 사용자 요구가 잦은 컨텐츠를 캐시 서버에 미리 저장하여 최적의 경로로 사용자에게 컨텐츠를 전달하는 기술은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+CDN(Contents Delivery Network)
+  ```
+
+
+
+</div> </details>
+
+
+
+486. #### 소프트웨어 기술을 기반으로 네트워크 장비의 패킷 포워딩 기능과 컨트롤러 기능을 표준 인터페이스로 분리하여 네트워크 개방성을 제공하는 기술의 이름은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+SDN(SW Defined NW)
+  ```
+
+
+
+</div> </details>
+
+487. #### 어플리케이션 최종 사용자에게 전달되는 패키지 소프트웨어 제품의 각종 정보에 대한 문서로서 제품 이름, 버전 번호, 업데이트 일자, 버전 정보 등을 기록하여 제공하는 문서의 이름은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+릴리즈 노트
+  ```
+
+</div> </details>
+
+
+
+489. #### 마크업 언어가 실제 브라우저에 표시되는 웹 문서의 전반적인 스타일을 미리 저장해 둔 방법을 기술한 기법은 무엇인지 쓰시오
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+CSS(Cascading Style Sheets)
+  ```
+
+
+
+</div> </details>
+
+490. #### 디지털 기반으로 기업의 전략, 조직, 프로세스, 비즈니스 모델, 문화, 커뮤니케이션, 시스템을 근본적으로 변화시키는 경영전략을 의미하는 말은?
+
+
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+디지털 트랜스포메이션, Digital Transformation
+  ```
+
+
+
+</div> </details>
+
+
+
+491. #### 컴퓨터 시스템을 감염시켜 접근을 제한하고 일종의 몸값을 요구하는 악성 소프트웨어는?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+랜섬웨어(Ransom(몸값)Ware(제품))
+  ```
+
+</div> </details>
+
+
+
+492. #### SW의 최상위의 품질 목표 달성을 위한 소프트웨어 품질 특성에 대한 국제 표준은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+ISO9126
+  ```
+
+
+
+</div> </details>
+
+
+
+493. #### IT 아웃소싱 서비스를 제공하는 업체와 사용하는 업체 간의 서비스에 대한 책임과 의무사항을 기술한 협약서의 이름은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+SLA(Service Level Agreement)
+  ```
+
+
+
+</div> </details>
+
+
+
+494. #### 멀티미디어 통신을 위해 UDP와 TCP의 일부 장점을 결합하여 설계되었으며, 장애를 대비한 대체 경로 확보, Multi-Streaming 기능 등이 포함된 고도의 신뢰 전송을 제공하는 전송계층 프로토콜은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+SCTP(Streaming Control Transmission Protocol)
+  ```
+
+
+
+</div> </details>
+
+
+
+495. #### 디스크의 처리속도, 데이터 보호를 목적으로 여러 개의 물리적인 디스크를 중복성을 가진 하나의 논리적인 디스크 어레이(Array)로 변환하는 기술은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+RAID(Redundant Array of Independent Disks)
+  ```
+
+
+
+</div> </details>
+
+496. #### 하나의 서버나 컴퓨터에서 자원의 효율적 사용을 목적으로 동시에 다수의 운영 체제를 구동시킬 수 있는 하드웨어와 운영체제 사이의 설치된 소프트웨어 가상화 기술의 이름은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+하이퍼바이저(Hypervisor)
+  ```
+
+
+
+</div> </details>
+
+
+
+497. #### 구글에서 만든 오픈소스 가상머신 형식의 자바 스크립트 V8 엔진 위에서 비동기 I/O로 서버 사이드 어플리케이션 개발에 사용되는 개발 프레임워크는?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+Node.js
+  ```
+
+
+
+</div> </details>
+
+
+
+498. #### 요구사항 수집, 모델링, 개발, 테스트, ㅍ로젝트 관리 및 형상관리까지 소프트웨어 개발의 전 과정을 자동화된 툴을 통해 체계적으로 통합하고 시각화해 관리하는 기법은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+ALM(Application Lifecycle Management)
+  ```
+
+
+
+</div> </details>
+
+499. #### 다음이 설명하는 용어는?
+
+```
+- 기업 내에 저장은 되어 있으나 분석 되지 않은 데이터
+- 저장할 곳이 없어서 몇 달 정도 보관했다가 지우는 데이터들도 포함됨
+- 기업의 비즈니스에 AI(인공지능)와 빅데이터가 적극 활용되기 시작하면서, 기업의 가치를 창출할 수 있으나 제대로 활용되지 못하는 데이터가 주목받고 있음.
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+다크 데이터
+  ```
+
+  ##### 해설
+
+    스몰 데이터: 빅데이터와 구분되는 이전의 데이터, 전통적인 데이터
+    패스트 데이터: 실시간으로 처리하고 분석하기 위한 초대용량 데이터
+    스마트 데이터: 빅데이터에 비해 다소 용량은 적지만 바로 분석할 수 있는 데이터, 품질이 보장되고 빠르게 분석 가능
+
+</div> </details>
+
+
+
+500. #### 전차 차원에서 정보화를 효율적으로 추진하기 위해 조직의 프로세스 및 정보 시스템 및 부서이 구조와 기능을 포괄적이고 정확한 방법으로 기술하는 설계도면 또는 청사진은 무엇인지 쓰시오
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+EA(Enterprise Architecture)
+  ```
+
+  ##### 해설(추가 개념)
+
+<img src ="./img/500.jpeg">
+
+<img src ="./img/500-1.jpeg">
+
+
+
+</div> </details>
+
+
+
+501. #### 빅데이터에서 사용되는 오픈소스 기술로 수십 테라바이트 또는 페타바이트 이상의 대용량 파일을 분산된 서버에 저장하고, 그 저장된 데이터를 빠르게 처리할 수 있게 하는 파일시스템은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+HDFS(Haddop Distributed File System)
+  ```
+
+##### 해설(추가 개념)
+
+```
+하둡이란?
+하둡은 2006년 야후의 더그 커팅이 '넛치'라는 검색엔진을 개발하는 과정에서 대용량의 비정형 데이터를 기존의 RDB 기술로는 처리가 힘들다는 것을 깨닫고, 새로운 기술을 찾는 중 구글에서 발표한 GFS와 MapReduce 관련 논문을 참고하여 개발하였습니다. 이후 아파치 재단의 오픈 소스로 공개 되었습니다.
+
+하둡은 하나의 성능 좋은 컴퓨터를 이용하여 데이터를 처리하는 대신, 적당한 성능의 범용 컴퓨터 여러 대를 클러스터화하고, 큰 크기의 데이터를 클러스터에서 병렬로 동시에 처리하여 처리 속도를 높이는 것을 목적으로 하는 분산처리를 위한 오픈소스 프레임워크라고 할 수 있습니다.
+```
+
+
+
+</div> </details>
+
+
+
+503. #### 소프트웨어 생산성을 극대화하는 기법은 3R의 세가지 구성요소 작성
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+역 공학(Reverse Engineering), 재 공학(Re-engineering), 재사용(Reuse)
+  ```
+
+
+
+</div> </details>
+
+
+
+504. #### 머신러닝 기술을 적용함에 있어서 초기 계획부터 데이터 수집, 가공, 분석과 배포관리까지 전 단계의 정의된 프로세스를 무엇이라 하는지 쓰시오
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+머신러닝 파이프라인
+  ```
+
+
+
+</div> </details>
+
+
+
+505. #### 도시 관리기능을 지능화하여 중앙센터에서 방범, 방재, 교통, 시설물 관리 등 분야별로 정보 시스템을 연계,활용하기 위한 기반 소프트웨어 플랫폼은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+스마트시티 플랫폼
+  ```
+
+
+
+</div> </details>
+
+
+
+506. #### 인공지능, 블록체인, 핀테크 등의 IT기술을 보험 산업에 적용한 기술은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+인슈어테크(Insurance+Technology)
+  ```
+
+
+
+</div> </details>
+
+
+
+507. #### 다음 보기에서 설명하는 것은?
+
+```
+- 구글이 2015년에 오픈 소스로 공개한 기계학습 라이브러리
+- 머신러닝과 딥 뉴럴 네트워크 연구를 목적으로 데이터 흐름 그래프(Data flow graph)를 사용하여 수치 연산을 하는 오픈소스 소프트웨어 라이브러리
+```
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+텐서플로(Tensorflow)
+  ```
+
+
+
+</div> </details>
+
 
 
 
