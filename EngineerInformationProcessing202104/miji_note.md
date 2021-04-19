@@ -1294,7 +1294,7 @@ UI 지침
 
 
 
-203. #### 소프트웨어 테스트 수행 시 발생하는 산출물든은 어떤게 있는지 서술
+203. #### 소프트웨어 테스트 수행 시 발생하는 산출물들은 어떤게 있는지 서술
 
 <details> <summary>답</summary> <div markdown="1">  
 
@@ -1463,7 +1463,7 @@ UI 지침
 
 </div> </details>
 
-213. 테스트 커버리지란?
+213. #### 테스트 커버리지란?
 
 <details> <summary>답</summary> <div markdown="1">  
 
@@ -1526,7 +1526,7 @@ UI 지침
 
 </div> </details>
 
-228. 알파, 베타 테스트와 가장 밀접한 연관이 있는 테스트 단계는?
+228. #### 알파, 베타 테스트와 가장 밀접한 연관이 있는 테스트 단계는?
 
 <details> <summary>답</summary> <div markdown="1">  
 
@@ -2703,7 +2703,7 @@ Seven Touchpoints
 MS-SDL(Microsoft-Secure Development Lifecycle)
   ```
 
-  ##### 해설
+  ##### 해설(추가 개념)
 
     이러이러해서 이게 정답이다
 
@@ -2828,7 +2828,7 @@ SQL 삽입
 
 </div> </details>
 
-322. 다음 코드에서 문제점을 설명하고 개선된 코드 작성하기
+322. #### 다음 코드에서 문제점을 설명하고 개선된 코드 작성하기
 
 ```java
 String param = request.getParameter("id");
@@ -2859,7 +2859,7 @@ ResultSet rs = pstmt.executeQuery();
 
 </div> </details>
 
-323. 다운로드를 요청하는 파일명을 입력받아 처리하는 코드의 일부이다. 경로 조작 및 자원삽입 보안약점을 제거하기 위해 추가해야 하는 전처리 작업의 내용을 설명하고 관련 코드 작성
+323. #### 다운로드를 요청하는 파일명을 입력받아 처리하는 코드의 일부이다. 경로 조작 및 자원삽입 보안약점을 제거하기 위해 추가해야 하는 전처리 작업의 내용을 설명하고 관련 코드 작성
 
 ```java
 String fileName = request.getParameter("P");
@@ -2883,7 +2883,7 @@ fis = new FileInputStream("C:/datas"+fileName);
 
 </div> </details>
 
-324. 괄호 채워넣기
+324. #### 괄호 채워넣기
 
 ```
 (1)은 해커가 웹사이트의 입력값이나 URL에 SQL문을 삽입하여 DB로부터 정보를 열람하거나 조작, 파괴할 수 있는 보안 약점
@@ -3091,7 +3091,15 @@ fis = new FileInputStream("C:/datas"+fileName);
 
 360. #### 처리 중인 데이터나 처리 결과나 처리 결과를 임시 보관하는 기능을 하며 산술 연산이나 정보 해석, 전송 등을 할 수 있는 일정 길이의 정보를 저장하는 CPU 내부의 초고속 기억장치는?
 
-- 답: 레지스터
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+레지스터
+  ```
+
+  ##### 해설(추가 개념)
+
 - 추가 종류: 
   - PC(Program Counter): 다음 인출할 명령어 주소를 가지고 있는 레지스터
   - MAR(Memory Address Register): 메모리 주소를 일시적으로 저장하는 사용되는 레지스터
@@ -3099,25 +3107,68 @@ fis = new FileInputStream("C:/datas"+fileName);
   - IR(Instruction Register): 가장 최근에 인출된 명령어 코드가 저장되어 있는 레지스터
   - AC(Accumulator): 데이터나 연산결과를 일시적으로 저장하는 레지스터
 
+</div> </details>
+
 364. #### 인터럽트 처리 루틴 순서
 
-답: 인터럽트 인식->현재 상태 보존 -> 요청 인터럽트 서비스로 분기 및 서비스 -> 사용자 상태 복구 및 재개
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+인터럽트 인식->현재 상태 보존 -> 요청 인터럽트 서비스로 분기 및 서비스 -> 사용자 상태 복구 및 재개
+  ```
+
+
+
+</div></details>
 
 365. #### 명령어 수행과정
 
-답: 명령어 인출(IF) -> 명령어 해독(ID) ->명령어 실행(EX) ->데이터 저장(WB)
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+명령어 인출(IF) -> 명령어 해독(ID) ->명령어 실행(EX) ->데이터 저장(WB)
+  ```
+
+
+
+</div></details>
 
 366. #### 프로세스가 실행되면서 특정 메모리 페이지를 일정 시간동안 집중적으로 액세스하는 현상?
 
-- 답: Locality(구역성, 지역성, 국부성, 국소성)
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+Locality(구역성, 지역성, 국부성, 국소성)
+  ```
+
+
+
 - 추가 종류:
   - 시간 구역성: 최근에 액세스된 프로그램이나 데이터가 가까운 미래에. 다시 액세스 될 가능성이 높음
   - 공간 구역성: 기억장치 내 인접하여 저장된 데이터들이 연속적으로 액세스 될 가능성이 높음
   - 순차 구역성: 분기 하지 않은 한, 명령어들은 기억장치에 저장된 순서대로 인출되어 실행됨.
 
+</div></details>
+
 367. #### 인터럽트 체제 구현방식 중 소프트웨어에 의한 우선순위 구현방식은? 
 
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
 답: 폴링(Polling) 방식
+  ```
+
+
+
+</div></details>
 
 368. #### 입출력 장치 제어기가 CPU에 의한 프로그램의 실행 없이 자료의 이동을 하는 방식?
 
@@ -3275,6 +3326,166 @@ LRU(Least Recently Used System), 최저 사용 빈도
 | **LRU/최저 사용 빈도<br />/Least Recently Used**        | 가장 오랫동안 사용되지 않을 페이지 교체                      | 호출시간을 기록해야 하는 오버헤드 발생하나 효율적            |
 | **LFU/최소 사용 빈도<br />/Least Frequently Used**      | 사용빈도가 가장 적은 페이지를 교체하는 기법                  | 구역성 문제 발생                                             |
 | **NUR/최근 사용 전무<br />/Not Used Recently**          | 최근에 사용되지 않은 페이지를 교체하는 기법                  | 참조비트, 변경 비트 사용, LRU 시간 오버헤드 해결             |
+
+</div> </details>
+
+
+
+391. #### 다중 프로세스 환경 하에 서로 다른 프로세스가 각자 자신이 소유한 자원을 포기하지 않고, 상대 프로세스의 자원을 무한 대기하고 있는 상태를 무엇이라고 하는가?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+교착상태(Dead Lock)
+  ```
+
+  ##### 해설(추가 개념)
+
+<img src="./img/391.jpeg">
+
+</div> </details>
+
+
+
+392. #### 프로세스가 자원을 요구할 때 시스템은 자원을 할당한 후에도 안정 상태로 남아있게 되는 지를 사전에 검사하여 교착상태의 발생을 회피하는 기법을 한글 또는 영문으로 쓰시오
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+은행가 알고리즘 또는 은행원 알고리즘(Banker's Algorithm)
+  ```
+
+
+
+</div> </details>
+
+
+
+393. #### 여러 개의 프로세스가 공유하는 데이터 및 자원에 대해 어느 한 시점에는 하나의 프로세스만 사용하도록 지정된 공유 영역이란?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+임계영역
+  ```
+
+
+
+</div> </details>
+
+
+
+394. #### 교착상테의 해결방안으로서, 상호배제, 점유와 대기, 비선점 및 환형 대기 조건의 부정을 통해 교착상태가 발생할 가능성을 완전히 배제하는 해결방안을 쓰시오.
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+예방기법
+  ```
+
+  ##### 해설
+
+    그 외 해결방안:
+    1. 회피 : 은행가 알고리즘
+    2. 발견: 시스템의 상태를 감시알고리즘을 통해 교착상태 검사
+    3. 회복: 교착상태가 없어질 때까지 프로세스를 순차적으로 kill하여 제거
+
+</div> </details>
+
+
+
+395. #### 운영 체제 또는 프로그램 작성 내에서 지원하는 상호배제 알고리즘은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+세마포어
+  ```
+
+
+
+</div> </details>
+
+
+
+397. #### 유닉스의 파일시스템에서 각 파일에 대한 정보를 기억하는 약 120바이트 고정된 크기의 자료구조의 이름은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+i-node
+  ```
+
+
+
+</div> </details>
+
+
+
+400. #### 고정 헤드 디스크 스케줄링 방식에서 시스템이나, 회전시간의 최적화를 위해 구현된 디스크 스케줄링 기법의 이름은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+SLTF(Shortest Latency Time First)
+  ```
+
+
+
+</div> </details>
+
+
+
+401. #### 다중 프로그래밍 시스템에서 프로세스나 태스크보다 더 작은 단위이며, 실행 환경을 공유시켜 문맥교환의 부하를 줄이고, 기억장소의 낭비를 줄이는 프로그램 단위의 이름은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+쓰레드
+  ```
+
+
+
+</div> </details>
+
+
+
+402. #### FIFO와 RR 스케줄링 방식을 혼합한 것으로 상위 단계에서 완료되지 못한 작업은 하위 단계로 전달되어 마지막 단계에서는 RR방식을 사용하는 알고리즘은?
+
+
+
+<details> <summary>답</summary> <div markdown="1">  
+
+
+  ```
+다단계 피드백 큐
+  ```
+
+
 
 </div> </details>
 
